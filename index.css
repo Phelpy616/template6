@@ -376,14 +376,15 @@ h3 {
   .landing h1 {
     top: 35px;
     left: 10px;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
+    line-height: 1;
   }
 
   /*search*/
   .search {
     width: 100%;
     height: auto;
-    margin: 550px 0 50px 0;
+    margin: 500px 0 50px 0;
     display: block;
     padding: 10px;
   }
