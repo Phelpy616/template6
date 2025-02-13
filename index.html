@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="logo" data-url="index.html">Logo</h1>
+
+      <div>
+        <h1 class="goToAbout"><a href="#about">About</a></h1>
+        <!-- <a href="#about">About</a> -->
+        <h1 class="building" data-url="houses.html">Houses</h1>
+        <h1 class="building" data-url="apartments.html">Apartments</h1>
+        <h1 class="building" data-url="commercial.html">Commercial</h1>
+      </div>
+
+      <div class="currency">
+        <h4>USD</h4>
+        <!-- Dropdown for currency selection (e.g., USD, GBP) -->
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAASVJREFUaEPtllEKAjEMRJOb6cnUk+nNKgUXylK2SSZRFqdffqTJvJlsUeXkR0+uXwjw6wSZABMAHeAKgQbC15kAbCHYgAmABsLXmQBsIdiACYAGwtf/O4HW2kVVX4iNaI9wAq21u4jcROShqv23+2T0CAEMgzfRboiMHn24G6BHLiLPid1miIn4rd3Vu5JugD7pQMASArk729EQQBQiW3xohUYXPII8tZ7XIJzANsQizFLjET3WwgCrdfoM68/t/iy/FwtUCsACYqYjRTz8DeyVHazKWJomPh3AkESq+BKAA4h08WUAE4gS8aUAA4RE/+x99RWyDKuoSXtGK8RZehLA4lJlDROodNfSmwlYXKqsYQKV7lp6MwGLS5U1TKDSXUvv0yfwBrX6cTHDYdlDAAAAAElFTkSuQmCC"
+        />
+      </div>
+    </div>
+
+    <div class="header2">
+      <h1>Logo</h1>
+      <img
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAALFJREFUaEPt1sERwjAMBVGnIJpJoTRDQdABOrzxMGY29y9Lu3KSax3+XIf3vxrg1wYzkAEk0AohQI5ngBFigf83cN+vN0Ki+PP5+Ap5NNAAxH+tDCDA7fHxDmzvAA9oAATI8QwwQiwwGuhDhoT7kB2/QrgB2+PjJd7eAR7QAAiQ4xlghFhgNHD8a7QBcEX6lUCA2+PjJd7eAR7QAAiQ4xlghFggAwiQ4xlghFggAwiQ4x+x/jAx0zbEOAAAAABJRU5ErkJggg=="
+      />
+    </div>
+
+    <div class="menu">
+      <div>
+        <h1><a href="#about">About</a></h1>
+      </div>
+
+      <div>
+        <h1>Houses</h1>
+      </div>
+
+      <div>
+        <h1>Apartments</h1>
+      </div>
+
+      <div>
+        <h1>Commercial</h1>
+      </div>
+    </div>
+
+    <div class="landing">
+      <img class="landingImgDesktop" src="images/landingImg.jpg" alt="" />
+
+      <img class="landingImgMobile" src="images/landingImg copy.jpg" alt="" />
+
+      <h1>
+        Unlock the Door<br />
+        to Your Future
+      </h1>
+    </div>
+
+    <div class="search">
+      <div class="searching searchingLocation">
+        <div><img src="images/location-pin.png" alt="" /></div>
+        <div class="location">
+          <p>Location</p>
+          <h3>Select</h3>
+        </div>
+        <div class="dropdown dropLocation">
+          <p>New York City, NY</p>
+          <p>Seattle, WA</p>
+          <p>Chicago, IL</p>
+        </div>
+      </div>
+
+      <div class="searching">
+        <div>
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAlNJREFUaEPtmU1ywyAMhZ2bsPA92pyszcma3MMLbtJWGZHBIEBPEHucSTadJja8T//Yp+ngn9PB9U9vgL09OMwDs3OfDPMVQYXvrvzdjf4u3n+PAu8GmJ0jMR/TNAWxWm0EdeuFMQOw8NjaWuHSdRcrCAzAofLTo7ZyLwwCAQy2eokDglADbCQ+QKkhVAAbi4cgmgA7iVdDVAF6xC/er9aenfs1Jv558T70kWyJFoB1U2pWowCytWKKIkCH9clalIQrq3WsR3qLSV0DQK1/Xbw/t8LECpJ6NOwjAhg2UZc92tiwftELJQDqtNrZBhIfLDc7h+xBt4keLgEg4ZMBsDjaNBhBuoaGQHSWyipSBoC6V6g2JWErCxpnqk0AEO+1cj79PQsjyQNobK6swpal0EHDQwPzFABVEkdgJNQKpwKwhEC13aemRfMsvj/NOSmELADVbinFhjGJs7FiRA7E+i78D7m6OIBFvQAtpaoQQpNYlXx0gOdm9AAzeGE3gAdk55SaFQwphKgEqg/tgqCaB6WOjOTceID/0MgqkPCs6B426bSKViNpIh0xzKnG6EIlQpIYGuaQheESahypxYY58kCj6sgsHq500IHGaKHHkwSO99UDXC6ZNEJozxmr/lJ69Pi6h3r2AlRSazNLx2OVami+9oOtjplFM160rlEVhaYHdoJQiSdtaoDOytSytqriSItAABtAQAcj2AOxBdA5puECdcik68AeSBc47Eu+ynBGP9FbS/qkr1nvcxN36uaJTZM43R7QbPLMa94Az7SuZu3De+APEKBNQCOKFdUAAAAASUVORK5CYII="
+          />
+        </div>
+        <div class="price">
+          <p>Price</p>
+          <div class="inputWrapper">
+            <input type="number" placeholder="Min price:" />
+            <input type="number" placeholder="Max price:" />
+          </div>
+        </div>
+      </div>
+
+      <div class="searching">
+        <div><img src="images/bed.png" alt="" /></div>
+        <div class="rooms">
+          <p>Number of rooms</p>
+          <div class="inputWrapper">
+            <input type="number" placeholder="Min rooms:" min="1" max="20" />
+            <input type="number" placeholder="Max rooms:" min="1" max="20" />
+          </div>
+        </div>
+      </div>
+
+      <div class="searching searchingType">
+        <div>
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAXVJREFUaEPtmU0OgyAQhcebsOAg9WStJ6sHccFN2pBoYhEdHgyozbhqAoH3zR/Q6ejmX3dz/aQAZ3uwyAPWmAcRPWcI/1v6GybnXkeLlgJ8pBXvrNdPzo2xsWwAa4y3zGL92hzj5FwvDdDK+l737QFoci4aLSUh1NIDCrDJH2uMegApXZoDobW4EAotFs7nxsP9mnuAE8iNKwCXYH8fQpwB0HHRHJiv0W9URMl8MYAzxHtwEYCzxIsASItvWkYPHi/DHNfww6YZwJH45b2a8zprApAifqksKER1AER8LgRSVqEqlCO+NkQyQIn4mhAIQPSltbdALAykSy50Dlhj/BVh8y8bl3Tr8RQAbr3s6/Te5tyGlwFYxfFPKClAEBOcQbJDKNUDRzU8JQeQMwBKYgUgIvVAJL6SDzINoauGEFo1pOcXh5C0IHS9HIDonQjdWGg+3mJatVBrtE8RLt+d9O1W2S4loqDm3OweWU1RyNoKgFirxtwvMuI9QCe6nK8AAAAASUVORK5CYII="
+          />
+        </div>
+        <div class="type">
+          <p>Property type</p>
+          <h3>Select</h3>
+        </div>
+        <div class="dropdown dropType">
+          <p>Apartment</p>
+          <p>House</p>
+          <p>Commercial</p>
+        </div>
+      </div>
+
+      <div class="searchBtn"><p>Search</p></div>
+    </div>
+
+    <div class="main">
+      <div class="part"><h1 id="about">About</h1></div>
+
+      <div class="part">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, optio!
+          Ullam quae rem, ea veritatis harum excepturi enim tempore incidunt
+          nemo iste eius accusamus adipisci quibusdam voluptate. Rerum repellat
+          iusto assumenda labore accusamus alias tempore accusantium, eos illo
+          quae ducimus?
+        </p>
+        <h1>835</h1>
+        <p>Doors Unlocked</p>
+        <h1>16</h1>
+        <p>Years unloaking doors</p>
+      </div>
+
+      <div class="part">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore
+          doloribus quos unde corporis, ab, recusandae quisquam reiciendis autem
+          pariatur totam consequatur. Officiis iusto praesentium temporibus quos
+          est dolor! Eligendi, quibusdam.
+        </p>
+        <h1>1343+</h1>
+        <p>Satisfied customers</p>
+        <h1>85</h1>
+        <p>Cities around USA</p>
+      </div>
+    </div>
+
+    <h1 class="servicesTxt">Services</h1>
+
+    <div class="services">
+      <div data-url="apartments.html">
+        <img src="images/buyApartment.jpg" alt="" />
+        <h3>Buy an apartment</h3>
+        <p>123 options</p>
+      </div>
+
+      <div data-url="apartments.html">
+        <img src="images/rentApartment.jpg" alt="" />
+        <h3>Rent an apartment</h3>
+        <p>231 options</p>
+      </div>
+
+      <div data-url="houses.html">
+        <img src="images/house.jpg" alt="" />
+        <h3>Buy a house</h3>
+        <p>321 options</p>
+      </div>
+
+      <div data-url="commercial.html">
+        <img src="images/comercial.jpg" alt="" />
+        <h3>Commercial</h3>
+        <p>213 options</p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h1>Logo</h1>
+
+      <div>
+        <h3>Menu</h3>
+        <h3>About</h3>
+        <h3>Houses</h3>
+        <h3>For rent</h3>
+        <h3>Commercial</h3>
+      </div>
+
+      <div>
+        <h3>For clients</h3>
+        <h3>Support</h3>
+        <h3>Legal</h3>
+        <h3>Privacy policy</h3>
+        <h3>Sale and rent</h3>
+      </div>
+
+      <div>
+        <h3>Contact us</h3>
+        <h3>+1 234 567 890</h3>
+        <h3>hello@youragency.com</h3>
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAqJJREFUaEPtmT1uHDEMhR/P4IO4ThW79g0CFz5AujSp/AMX7tL4DAF8i9hdmlwjuUB6ermQDK4sSqRmtcYCM4AB786MxO+RIikt4cgvOnL7sQJ8tAdXDxylB5j5DID8fU4A8v/odZdefCai5+ggoRBi5lsAN9FJgs/fEZHM47pcAElxMXyJ0i6D1EMukC6AoXp29csGKux2ZWQWREKxJs55L6w8AFxI51ImKrc8XxFL1sV5a6wmQGXAriIjhut3Urj+8oZSD0Crv3flmfkEwBWACwB/AMgc/yPCmQCFEl1XjijPzF8BPKp3fxDRtxROWjzT8y0AnTKH1E8iwFqIzPwA4LsC+E1EnxKAhFFe2Ob8ewdI7reyyo4hzPwFwE8FcE1E9xUAMwJaAC4X5smDRe4NhJkvAZwC+AvgiYj+JQBRPy/muQBB4zNzMyzLbESb8lxbZ4s90Ch0YuC2yKneqWxDTIhDApSFzswYNVhL2YMAVAzqZitvodorQEOloULHzDpFVhfoRwC42wyPcZ5nZH25FnHNA94JrArNm/hT997Be8dfAVoqNtTXRUpajXdCTvdApNyXIGX2mg4AoLpAI21vo+Wopt69esACqLS98pW7um6ziNEiHBKgdlIhRyVvxySNQwE37LReyNjLevY305s5XS27RSrYkXpajh3PjnjAtSPqZRh1XzrTF++hVSHI0H5AKzC0J+5tKVtxVvRLQ1tK147IE+wjzxStxmKAZnocMbCjviv+m82ckV26i3kpjHe/kOfxHC3qxTzVE5EdWwRgp/FSCudzfflq6QGv9TtDN912PbCgUC2NJle4ugAajdhSI2vvh1J2CKAAkY/WCVwELIffNiR7vweUAw8BRKyb/ewKMFvh3virB3oKzb5/9B54BUAg5UA5gcVZAAAAAElFTkSuQmCC"
+        />
+
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAASFJREFUaEPtV10OgzAIhpNtnmzzZHMnYyOpiTHVFuhm3b4+9YFavh8oMp188cnzJwA4WkEo8BcKiMidiC4J7HUBekr7kZnnvYmTj1ooJX6ryGjoDoCIPIhoyfYejr4AGJifQXUHQCpsswzpB4CIqG3UPpbVFQDtOFuFO77rYvIWbI6R5l2oULxuprfk/CYAZX6w+KomFgDWLO1YCAocXcR9KZD6fa5d7o0P2YEtUtzuInY+WNnGwszuPNwHGwIIWQsAah6bQszpFdC/MZ2fXMttIb0tzf3ri7cGOe1Az0yWoeEuBCBHGV5io5GgAIY5o2XW4bAQLAQLBRmAhYIEogvBQrBQkIGfs1BjPoqfa96Fijc2DgCAxoSaPwcFzJQ1PvACet63MR7vpKcAAAAASUVORK5CYII="
+        />
+      </div>
+    </div>
+
+    <div class="footer2">
+      <h3>Menu</h3>
+      <div class="inner">
+        <h4>About</h4>
+        <h4>Houses</h4>
+        <h4>For rent</h4>
+        <h4>Commercial</h4>
+      </div>
+
+      <h3>For clients</h3>
+      <div class="inner">
+        <h4>Support</h4>
+        <h4>Legal</h4>
+        <h4>Privacy policy</h4>
+        <h4>Sale and rent</h4>
+      </div>
+
+      <h3>Contact us</h3>
+      <div class="innerLast">
+        <div>
+          <h4>+1 234 567 890</h4>
+          <h4>hello@youragency.com</h4>
+        </div>
+
+        <div>
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAqJJREFUaEPtmT1uHDEMhR/P4IO4ThW79g0CFz5AujSp/AMX7tL4DAF8i9hdmlwjuUB6ermQDK4sSqRmtcYCM4AB786MxO+RIikt4cgvOnL7sQJ8tAdXDxylB5j5DID8fU4A8v/odZdefCai5+ggoRBi5lsAN9FJgs/fEZHM47pcAElxMXyJ0i6D1EMukC6AoXp29csGKux2ZWQWREKxJs55L6w8AFxI51ImKrc8XxFL1sV5a6wmQGXAriIjhut3Urj+8oZSD0Crv3flmfkEwBWACwB/AMgc/yPCmQCFEl1XjijPzF8BPKp3fxDRtxROWjzT8y0AnTKH1E8iwFqIzPwA4LsC+E1EnxKAhFFe2Ob8ewdI7reyyo4hzPwFwE8FcE1E9xUAMwJaAC4X5smDRe4NhJkvAZwC+AvgiYj+JQBRPy/muQBB4zNzMyzLbESb8lxbZ4s90Ch0YuC2yKneqWxDTIhDApSFzswYNVhL2YMAVAzqZitvodorQEOloULHzDpFVhfoRwC42wyPcZ5nZH25FnHNA94JrArNm/hT997Be8dfAVoqNtTXRUpajXdCTvdApNyXIGX2mg4AoLpAI21vo+Wopt69esACqLS98pW7um6ziNEiHBKgdlIhRyVvxySNQwE37LReyNjLevY305s5XS27RSrYkXpajh3PjnjAtSPqZRh1XzrTF++hVSHI0H5AKzC0J+5tKVtxVvRLQ1tK147IE+wjzxStxmKAZnocMbCjviv+m82ckV26i3kpjHe/kOfxHC3qxTzVE5EdWwRgp/FSCudzfflq6QGv9TtDN912PbCgUC2NJle4ugAajdhSI2vvh1J2CKAAkY/WCVwELIffNiR7vweUAw8BRKyb/ewKMFvh3virB3oKzb5/9B54BUAg5UA5gcVZAAAAAElFTkSuQmCC"
+          />
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAASFJREFUaEPtV10OgzAIhpNtnmzzZHMnYyOpiTHVFuhm3b4+9YFavh8oMp188cnzJwA4WkEo8BcKiMidiC4J7HUBekr7kZnnvYmTj1ooJX6ryGjoDoCIPIhoyfYejr4AGJifQXUHQCpsswzpB4CIqG3UPpbVFQDtOFuFO77rYvIWbI6R5l2oULxuprfk/CYAZX6w+KomFgDWLO1YCAocXcR9KZD6fa5d7o0P2YEtUtzuInY+WNnGwszuPNwHGwIIWQsAah6bQszpFdC/MZ2fXMttIb0tzf3ri7cGOe1Az0yWoeEuBCBHGV5io5GgAIY5o2XW4bAQLAQLBRmAhYIEogvBQrBQkIGfs1BjPoqfa96Fijc2DgCAxoSaPwcFzJQ1PvACet63MR7vpKcAAAAASUVORK5CYII="
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
