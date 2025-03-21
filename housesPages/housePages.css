@@ -20,7 +20,15 @@ body {
   background-color: transparent;
 }
 
+.menu{
+  display: none;
+}
+
 .header2 {
+  display: none;
+}
+
+.houseExploring2{
   display: none;
 }
 

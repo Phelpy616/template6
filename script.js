@@ -72,18 +72,6 @@ try {
   console.log(error);
 }
 
-/*clickin "about" in the .header will take u to "about" in the home*/
-const headerAbout = document.querySelector(".header .goToAbout");
-const url = window.location.href;
-const url2 = `file:///Users/cristianmcknight/Desktop/STELLARwebdev/template6/index.html#about`;
-headerAbout.addEventListener("click", () => {
-  if (url != window.location.href || url2 != window.location.href) {
-    window.location.href = headerAbout.dataset.url;
-  } else {
-    return;
-  }
-});
-
 /*clicking one of the properties in newyork, seattle or chicago will take to respective page*/
 const type = document.querySelectorAll(".type .buildingPreview");
 type.forEach((element) => {
@@ -194,3 +182,19 @@ try {
 } catch (error) {
   console.log(error);
 }
+
+//go to about if not in the home page on desktop
+const headerAbout = document.querySelector(".header .goToAbout");
+
+headerAbout.addEventListener("click", (event) => {
+  // Check if <h1> contains an <a>
+  const link = headerAbout.querySelector("a");
+
+  if (link) {
+    // If an <a> exists, let it work normally
+    return;
+  } else if (headerAbout.dataset.url) {
+    // If no <a>, navigate to data-url
+    window.location.href = headerAbout.dataset.url;
+  }
+});
