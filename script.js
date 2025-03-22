@@ -150,24 +150,8 @@ try {
 
 /*go to home page when clicking the logo on mobile*/
 const logoMobile = document.querySelector(".header2 h1");
-const urlsFromFolders = [
-  "house1.html",
-  "house2.html",
-  "house3.html",
-  "house4.html",
-  "apartment1.html",
-  "apartment2.html",
-  "apartment3.html",
-  "commercial1.html",
-  "commercial2.html",
-  "commercial3.html",
-];
-const urlOnMobile = window.location.pathname.split("/").pop();
-
 logoMobile.addEventListener("click", () => {
-  if (urlsFromFolders.includes(urlOnMobile)) {
-    window.location.href = "../index.html";
-  }
+    window.location.href = "index.html";
 });
 
 /*When in nyc, seattle or chicago page, ON MOBILE and click on the,
