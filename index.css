@@ -603,3 +603,186 @@ h3 {
     margin-top: 10px;
   }
 }
+
+/*media query for ipads portrait*/
+@media (min-width: 451px) and (max-width: 834px){
+/*hader*/
+.header h1 {
+  font-size: 1.2rem;
+}
+
+/*landing*/
+  .landing h1 {
+    font-size: 2rem;
+  }
+
+  /*search*/
+.search {
+  height: 70px;
+  margin: 290px 0 0 0;
+}
+
+  /*searching*/
+.search .searching {
+  width: fit-content;
+  height: 60px;
+}
+
+.search .searching div:nth-child(1) {
+  width: 30px;
+  height: 30px;
+}
+
+.search .searching .price .inputWrapper,
+.search .searching .rooms .inputWrapper {
+  width: fit-content;
+}
+
+.search .searching .price .inputWrapper input,
+.search .searching .rooms .inputWrapper input {
+  width: 45px;
+  height: 20px;
+}
+
+.search .searching div:nth-child(1) img {
+  width: 20px;
+}
+
+.search .searchBtn {
+  width: 70px;
+  height: 60px;
+  align-items: center;
+}
+
+.search .searchBtn p{
+  margin: 0;
+}
+
+.search .searching .location h3,
+.search .searching .type h3 {
+  color: gray;
+  font-size: 1rem;
+}
+
+.search .searching .dropType {
+  left: 430px;
+  display: none;
+}
+
+/*main*/
+.main {
+  width: 100%;
+  height: auto;
+  margin-top: 80px;
+  gap: 30px;
+}
+
+.main div:nth-child(1) h1{
+  margin: 0;
+}
+
+.main .part p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.main .part h1 {
+  font-size: 4rem;
+  margin: 30px 0 0 0 ;
+}
+
+
+.main .part {
+  width: 30%;
+  height: auto;
+}
+
+.main .part p:nth-child(1) {
+  width: 100%;
+  height: auto;
+}
+
+/*services text*/
+.servicesTxt {
+  margin: 50px 0 20px 30px;
+}
+
+/*services*/
+.services {
+  height: auto;
+  gap: 30px;
+  margin:  0 0 40px 0;
+}
+
+.services div {
+  width: 150px;
+  height: 100%;
+}
+
+.services div h3{
+  font-size: 1.1rem;
+  margin: 10px 0 0 0;
+}
+
+.services div img {
+  width: 150px;
+  height: 150px;
+}
+}
+
+/*media query for ipads landscape*/
+@media (min-width: 1024px) and (max-width: 1366px){
+/*landing*/
+.landing h1 {
+  font-size: 3rem;
+}
+ 
+/*search*/
+.search {
+  margin: 40% 0 10% 0;
+}
+
+/*main*/
+.main{
+  height: auto;
+}
+
+.main .part {
+  height: auto;
+}
+
+.main .part p {
+  margin: 0;
+}
+
+.main .part p:nth-child(1) {
+  height: auto;
+}
+
+.main .part h1 {
+  margin: 20px 0 0 0;
+}
+
+/*services*/
+.services {
+  height: auto;
+  gap: 40px;
+}
+
+.services div {
+  width: auto;
+  height: 100%;
+}
+
+.services div img {
+  width: 200px;
+  height: 200px;
+}
+}
+
+/*ipad pro 13 portrait*/
+@media (device-width: 1024px) and (device-height: 1366px){
+  .search .searching .dropType {
+    left: 670px;
+  }
+}

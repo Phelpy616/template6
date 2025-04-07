@@ -610,3 +610,96 @@ body {
     margin-top: 10px;
   }
 }
+
+/*media query for ipads portrait*/
+@media (min-width: 451px) and (max-width: 834px){
+  /*hader*/
+  .header h1 {
+    font-size: 1.2rem;
+  }
+
+/*house images/ exploring*/
+.houseExploring {
+  height: 245px;
+}
+
+.houseExploring div:nth-child(1) img,
+.houseExploring div:nth-child(3) img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.houseExploring div:nth-child(2) img {
+  width: 180px;
+  object-fit: cover;
+}
+
+/*description and map*/
+.descriptionNMap {
+  flex-direction: column;
+}
+
+.descriptionNMap div:nth-child(1) {
+  width: 100%;
+}
+
+.descriptionNMap div:nth-child(1) p {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.descriptionNMap div:nth-child(2) {
+  width: 100%;
+}
+
+.descriptionNMap div:nth-child(2) iframe {
+  width: 100%;
+  height: 300px;
+}
+}
+
+/*media query for ipads landscape*/
+@media (min-width: 1024px) and (max-width: 1366px){
+  /*house images/ exploring*/
+.houseExploring {
+  height: 375px;
+}
+
+.houseExploring div:nth-child(1) img,
+.houseExploring div:nth-child(3) img {
+  object-fit: cover;
+}
+
+.houseExploring div:nth-child(2) img {
+  object-fit: cover;
+}
+
+/*description and map*/
+.descriptionNMap {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.descriptionNMap div:nth-child(1) {
+  width: 100%;
+}
+
+.descriptionNMap div:nth-child(1) p {
+  text-align: justify;
+}
+
+.descriptionNMap div:nth-child(2) {
+  width: 100%;
+}
+
+.descriptionNMap div:nth-child(2) iframe {
+  width: 100%;
+  height: 250px;
+}
+}

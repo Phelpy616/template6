@@ -410,3 +410,73 @@ body {
     margin-top: 10px;
   }
 }
+
+/*media query for ipads portrait*/
+@media (min-width: 451px) and (max-width: 834px){
+  body{
+    height: 100vh;
+  }
+
+  /*hader*/
+  .header h1 {
+    font-size: 1.2rem;
+  }
+
+  /*apartments text at the top*/
+.apartmentsTxt {
+  margin-top: 20px;
+}
+
+.apartmentsTxt h1 {
+margin: 0;
+}
+  
+  /*building type*/
+.type div div img {
+  height: 200px;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+}
+
+/*media query for ipads landscape*/
+@media (min-width: 1024px) and (max-width: 1366px){
+  /*apartments text at the top*/
+.apartmentsTxt {
+  margin-top: 40px;
+}
+
+.apartmentsTxt h1 {
+margin: 0;
+}
+}
+
+/*ipad pro 13 portrait*/
+@media (device-width: 1024px) and (device-height: 1366px){
+  body{
+    height: 100vh;
+  }
+
+  .footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+/*ipad pro 13 landscape*/
+@media (device-width: 1366px) and (device-height: 1024px){
+  body{
+    height: 100vh;
+  }
+
+  .footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}

@@ -514,3 +514,42 @@ body {
     margin-top: 10px;
   }
 }
+
+/*media query for ipads portrait*/
+@media (min-width: 451px) and (max-width: 834px){
+  /*hader*/
+.header h1 {
+  font-size: 1.2rem;
+}
+
+/*type frst*/
+.frst div{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  grid-template-rows: repeat(2,auto);
+}
+
+.frst div div{
+  width: 100%;
+}
+
+/*type middle*/
+.middle div{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+}
+
+.middle div div {
+  width: 100%;
+}
+
+/*type last*/
+.lastType div{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+}
+
+.lastType div div {
+  width: 100%;
+}
+}
